@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+#navigation {
+    background-color: aqua;
+}
+
+#navigation > ul {
+    padding: 20px;
+    margin: 0;
+}
+
+#header {
+    background-color: lightcoral;
+    margin: 0;
+}
+
+#content {
+    background-color: aqua;
+}
+
+#footer {
+    background-color: lightcoral;
+}
+
+img {
+    max-width: 500px;
+}
