@@ -4,26 +4,56 @@ body {
 
 #navigation {
     background-color: aqua;
+    position: fixed;
+    width: 100vw;
 }
 
 #navigation > ul {
-    padding: 20px;
-    margin: 0;
+    padding: 5px 0 5px 20px;
+    margin: 0 auto;
+}
+
+#navigation li {
+    display: inline;
+    margin: 0 10px 0 0;
 }
 
 #header {
-    background-color: lightcoral;
-    margin: 0;
+    background-color: lightsalmon;
+    padding: 10px;
 }
 
 #content {
     background-color: aqua;
+    padding: 10px;
 }
 
 #footer {
     background-color: lightcoral;
+    padding: 10px;
+    list-style: none;
+}
+
+#footer li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+#footer .container {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 760px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 img {
-    max-width: 500px;
+    max-width: 50vw;
 }
